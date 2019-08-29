@@ -56,7 +56,7 @@ public class A1Novice {
 		for(int i = 0; i < c.getIcount(); i++) {
 			total_cost += c.getCitem()[i].getI_amount();
 		}
-		System.out.println(String.format("%.2f", total_cost) + ": ");
+		System.out.println(String.format("%.2f", total_cost));
 		
 	}
 }

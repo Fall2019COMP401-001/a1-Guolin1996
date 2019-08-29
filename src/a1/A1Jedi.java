@@ -47,8 +47,13 @@ public class A1Jedi {
 				for(int p=0; p<store.getCustomer()[j].getC_item().length; p++) {
 					if(store.getS_Item()[i].getI_name().equals(store.getCustomer()[j].getC_item()[p].getI_name())){
 						num++;
-						quantity += store.getCustomer()[j].getC_item()[p].getI_quantity();
 						break;
+					}
+				}
+				
+				for(int p=0; p<store.getCustomer()[j].getC_item().length; p++) {
+					if(store.getS_Item()[i].getI_name().equals(store.getCustomer()[j].getC_item()[p].getI_name())){
+						quantity += store.getCustomer()[j].getC_item()[p].getI_quantity();
 					}
 				}
 			}
